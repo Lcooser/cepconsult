@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.form{
+    flex-direction: column;
+    margin-left: 1vh;
+}
+
+.form h2{
+    color: green;
+}
+
+.form div{
+    margin-top: 1vh;
+}
+
+.form input{
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.cep{
+    width: 11vh;
+}
+
+.state{
+    width: 5vh;
+}
+
+.ibge{
+    width: 11vh;
+}
